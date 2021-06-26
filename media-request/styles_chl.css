@@ -1,0 +1,33 @@
+/* DESKTOP VIEW */
+.container{
+    background-color: forestgreen;
+    max-width:1024px;
+    min-height:500px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col{
+    background-color: maroon;
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+/* TABLET VIEW */
+@media(max-width:768px)
+{
+    .col{
+        width: 45%;
+    }
+}
+
+/* MOBILE VIEW */
+@media(max-width:400px)
+{
+    .col{
+        width: 100%;
+    }
+}

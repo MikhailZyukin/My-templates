@@ -22,7 +22,7 @@ h1{
 /* 
     MOBILE VIEW
 */
-@media(max-width:360px){
+@media(max-width:400px){
     h1{
         color: deeppink;
     }
