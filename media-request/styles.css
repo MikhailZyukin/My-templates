@@ -1,0 +1,29 @@
+
+
+/* 
+    DESKTOP VIEW
+*/
+
+h1{
+    color: limegreen;
+}
+
+
+/* 
+    TABLET VIEW
+*/
+@media(max-width:768px){
+    h1{
+        color: darkorange;
+    }
+}
+
+
+/* 
+    MOBILE VIEW
+*/
+@media(max-width:360px){
+    h1{
+        color: deeppink;
+    }
+}
